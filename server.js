@@ -371,6 +371,6 @@ app.get('/logout', (req, res) => {
 
 
 
-app.listen(3000, () => {
-  logger.info('> Server is running on PORT 3000');
+app.listen(port, () => {
+  logger.info(`> Server is running on PORT ${port}`);
 })
